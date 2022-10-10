@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyDesk.CleanArchitecture.Infrastructure" Version="0.29.0" />
+    <PackageReference Include="EasyDesk.CleanArchitecture.Dal.EfCore" Version="0.29.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\___MICROSERVICE_NAME___.Application\___MICROSERVICE_NAME___.Application.csproj" />
+    <ProjectReference Include="..\___MICROSERVICE_NAME___.Domain\___MICROSERVICE_NAME___.Domain.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <RootFolder>..\..</RootFolder>
+  </PropertyGroup>
+
+</Project>
